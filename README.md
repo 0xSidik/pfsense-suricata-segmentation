@@ -10,7 +10,6 @@ Pare-feu périmétrique **pfSense** en coupure, segmentation réseau en trois zo
 | Étiquette | Signification |
 |---|---|
 | **[RÉEL]** | Établi par une capture, un export de configuration ou un journal présent dans ce dépôt |
-| **[À CONFIRMER]** | Information non prouvée par les fichiers du dépôt, à vérifier par l'auteur |
 | **[RECOMMANDATION]** | Bonne pratique proposée, non mise en œuvre dans la maquette |
 | **[AMÉLIORATION]** | Évolution possible, hors périmètre réalisé |
 
