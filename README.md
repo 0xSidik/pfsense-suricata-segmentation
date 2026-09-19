@@ -103,15 +103,15 @@ Schémas d'origine : [`diagrams/architecture-existante.png`](diagrams/architectu
 
 | Composant | Version / valeur | Statut |
 |---|---|---|
-| pfSense CE | **2.8.1** (page de téléchargement capturée ; schéma de config XML `22.9`) | [RÉEL] |
-| Suricata (paquet pfSense) | **7.0.2** (`suricata-7.0.2_1`, `pfSense-pkg-suricata 7.0.2`) | [RÉEL] |
-| Jeu de règles | Emerging Threats **Open**, mise à jour du 2026-09-06 03:43 UTC | [RÉEL] |
-| VM pfSense | 2 vCPU (QEMU Virtual CPU 2.4.0), 4032 MiB de RAM, disque 16 Go (ZFS), 2 cartes virtio (`vtnet0`, `vtnet1`) | [RÉEL] |
-| Switch SW1 | Commutateur managé, syntaxe de type Cisco IOS ; modèle/version | [À CONFIRMER] |
-| Serveur web `srv-web` | Ubuntu, **nginx 1.18.0** ; IP 10.10.30.6 | [RÉEL] (version d'Ubuntu : [À CONFIRMER]) |
-| Serveur Syslog `srv-syslog` | Linux, IP 10.10.20.5, journaux `/var/log/firewall.log` et `/var/log/suricata-eve.log` | [RÉEL] (distribution/démon : [À CONFIRMER]) |
+| pfSense CE | **2.8.1** (page de téléchargement capturée ; schéma de config XML `22.9`) | 
+| Suricata (paquet pfSense) | **7.0.2** (`suricata-7.0.2_1`, `pfSense-pkg-suricata 7.0.2`) | 
+| Jeu de règles | Emerging Threats **Open**, mise à jour du 2026-09-06 03:43 UTC | 
+| VM pfSense | 2 vCPU (QEMU Virtual CPU 2.4.0), 4032 MiB de RAM, disque 16 Go (ZFS), 2 cartes virtio (`vtnet0`, `vtnet1`) | 
+| Switch SW1 | Commutateur managé, syntaxe de type Cisco IOS ; modèle/version | 
+| Serveur web `srv-web` | Ubuntu, **nginx 1.18.0** ; IP 10.10.30.6 | 
+| Serveur Syslog `srv-syslog` | Linux, IP 10.10.20.5, journaux `/var/log/firewall.log` et `/var/log/suricata-eve.log` |
 | Poste de test | Kali Linux, **Nmap 7.99**, **Hydra v9.6**, IP 10.10.10.101 | [RÉEL] (IP déduite des journaux) |
-| Plateforme de virtualisation | Adresses MAC `50:00:00:xx` et style de topologie compatibles EVE-NG | [À CONFIRMER] |
+| Plateforme de virtualisation | Adresses MAC `50:00:00:xx` et style de topologie compatibles EVE-NG | 
 
 ## Prérequis
 
