@@ -1,0 +1,29 @@
+# --- Exports bruts pfSense : contiennent hash admin, clés privées, clés SSH ---
+config.xml
+config-*.xml
+*-raw.xml
+*.xml.bak
+# Seuls les exports assainis (suffixe -assainie.xml) sont publiables
+!config/*-assainie.xml
+
+# --- Secrets et données de test ---
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.env
+dico.txt
+wordlist*.txt
+*.pcap
+*.pcapng
+
+# --- Divers ---
+*.log
+!tests/logs/*.md
+.DS_Store
+Thumbs.db
+*.swp
+*.zip
+__pycache__/
